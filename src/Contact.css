@@ -1,0 +1,42 @@
+/* *{
+    border: 1px solid white;
+} */
+
+.contact{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.c-leftdiv{
+    width:40%;
+    padding: 2%;
+}
+
+.c-leftdiv button{
+    font-size: 1.4rem;
+    width: 100%;
+}
+
+.c-rightdiv{
+    width:40%;
+    padding: 4%;
+}
+
+.c-rightdiv h1{
+    color:firebrick;
+}
+
+.c-rightdiv p{
+    color:lightcyan;
+    font-size: 1.4rem;
+}
+
+a{
+    text-decoration:none;
+}
+
+.icons{
+    margin:1% 2%;
+
+    font-size: 2.5rem;
+}

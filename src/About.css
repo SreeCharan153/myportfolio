@@ -1,0 +1,130 @@
+.about{
+    margin: 3% 8%;
+    /* border:2px solid white; */
+    width: 84vw;
+    height: auto;
+    display:grid ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5%;
+    /* padding: 2%; */
+}
+.right{
+    animation: kick 1s ;
+}
+.left{
+    padding-left:10%;
+}
+.left p{
+    font-size:1.6rem;
+}
+.leftdiv1 p{
+    color:violet;
+}
+.leftdiv2 p{
+    color:darkorange;
+}
+.leftdiv3 p{
+    color:red;
+}
+.leftdiv4 p{
+    color:lightseagreen;
+}
+
+.right ul li{
+    font-size: 1.4rem;
+}
+
+.rightdiv1 li{
+    list-style-type:none;
+}
+
+.rightdiv2 li{
+    list-style-type:disc;
+}
+.rightdiv3 li{
+    list-style-type:square;
+}
+.rightdiv4 li{
+    list-style-type:circle;
+}
+
+.left{
+    animation: kick1 1s ;
+}
+
+.skilldivs{
+    height:4vh;
+    width: 30vw;
+    background-color: grey;
+    border-radius: 8px;
+}
+
+#c{ height:100%;
+    width:80%;
+    background-color:orange;
+    border-radius:8px;
+    text-align: right;
+    animation: fill 5s infinite;
+}
+#py{
+    height:100%;
+    width:40%;
+    background-color:burlywood;
+    border-radius:8px;
+    text-align: right;
+    animation: fill 5s infinite;
+
+}
+
+#react{
+    height:100%;
+    width:30%;
+    background-color:darkseagreen;
+    border-radius:8px;
+    text-align: right;
+    animation: fill 5s infinite;
+}
+#web{
+    height:100%;
+    width:60%;
+    background-color:lightcoral;
+    border-radius:8px;
+    text-align: right;
+    animation: fill 5s infinite;
+}
+
+#ms{ 
+    height:100%;
+    width:70%;
+    background-color:lightseagreen;
+    border-radius:8px;
+    text-align: right;
+    animation: fill 5s infinite;
+}
+#time{
+    height:100%;
+    width:100%;
+    background-color:crimson;
+    border-radius:8px;
+    text-align: right;
+    animation: fill 5s infinite;
+}
+@keyframes fill {
+    from{width: 0%};
+    to{width: 100%;}
+    
+}
+@keyframes kick {
+    from{transform: translateX(120px);
+    opacity: 0;}
+    to{transform: translateX(0px);
+    opacity: 1;}
+}
+@keyframes kick1 {
+    from{transform: translateX(-120px);
+    opacity: 0;}
+    to{transform: translateX(0px);
+    opacity: 1;}
+}
+

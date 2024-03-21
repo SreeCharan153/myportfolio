@@ -1,0 +1,32 @@
+.home img{
+    border-radius: 50%;
+    box-shadow: 3px 3px 20px 1px white;
+    width: 25%;
+    margin-right: 2%;
+    animation: kick 1s ;
+}
+.home h1{
+      margin:3% 7%;   
+}
+
+.home .paras{
+     width: 60vw;
+     margin-left:7% ;
+     font-size: 1.5rem;
+     color: rgb(166, 234, 236);
+}
+.home button{
+    background-color:coral;
+    border-radius:10px;
+    font-size:1.5rem;
+    margin:2% 7%;
+    margin-right: 0;
+    cursor: pointer;
+    padding:6px;
+}
+@keyframes kick {
+    from{transform: translateX(120px);
+    opacity: 0;}
+    to{transform: translateX(0px);
+    opacity: 1;}
+}

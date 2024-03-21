@@ -1,0 +1,47 @@
+.projectsdiv{
+    margin:5% 7%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:10%;
+
+}
+
+
+.projects{
+    display:flex;
+    flex-direction:column;
+    /* align-items:center; */
+   
+}
+.projects img{
+    width:50%;
+    border-radius: 10px;  
+}
+
+.p1 h2{
+    color:lightsalmon ;
+}
+.p2 h2{
+    color:lightblue ;
+}
+.p3 h2{
+    color:chartreuse ;
+}
+.p4 h2{
+    color:fuchsia;
+}
+.p5 h2{
+    color:goldenrod ;
+}
+.p6 h2{
+    color:darkcyan ;
+}
+.p7 h2{
+    color:deeppink ;
+}
+.p8 h2{
+    color:lightblue ;
+}
+.p9 h2{
+    color:chartreuse ;
+}
