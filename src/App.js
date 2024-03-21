@@ -9,7 +9,7 @@ import Contact from './Contact';
 function App() {
   return (
 
- <Router >
+ <Router basename='/myportfolio/'>
   
     <div className="mainpage">
 
