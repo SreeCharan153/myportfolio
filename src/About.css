@@ -67,6 +67,23 @@
     text-align: right;
     animation: fill 5s infinite;
 }
+#java{
+    height: 100%;
+    width: 40%;
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    text-align: right;
+    animation: fill 5s infinite;
+}
+#sql
+{
+    height:100%;
+    width:50%;
+    background-color: dodgerblue;
+    border-radius:8px;
+    text-align: right;
+    animation: fill 5s infinite;
+}
 #py{
     height:100%;
     width:40%;

@@ -8,7 +8,6 @@ import {BrowserRouter as Router, Route, Routes, BrowserRouter} from 'react-route
 import Contact from './Contact';
 function App() {
   return (
-
  <Router basename='/myportfolio'>
   
     <div className="mainpage">
@@ -20,7 +19,7 @@ function App() {
        <Route path="/contact" element={<Contact/>}/>
 
 
-      
+       
      </Routes>
     </div>
     </Router>

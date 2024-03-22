@@ -10,7 +10,7 @@ const Projects = () => {
      <div className="projectsdiv">
         
         <div className="p1 projects ">
-        <img src={img}></img>
+        <img src={img} alt='My portfolio'></img>
         <h2>My Portfolio</h2>
         <p>Welcome to my portfolio! This repository serves as a comprehensive overview of my skills, experience, and accomplishments in CSE-Cyber Security. Whether you're a potential client, employer, or collaborator, this portfolio offers insight into my professional background and showcases the quality and creativity of my work.</p> 
         </div>

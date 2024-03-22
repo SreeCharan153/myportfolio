@@ -54,6 +54,18 @@ const About = () => {
                         <div id="react">30%</div>
                     </div >
 
+                    
+                    <li>Java</li>
+                    <div className="skilldivs">
+                        <div id="java">40%</div>
+                    </div >
+
+                    
+                    <li>SQL</li>
+                    <div className="skilldivs">
+                        <div id="sql">50%</div>
+                    </div >
+
                     <li>Web Designing</li>
                     <div className="skilldivs">
                         <div id="web">80%</div>
