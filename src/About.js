@@ -89,16 +89,12 @@ const About = () => {
                   </div>
                   <div className="rightdiv4 right">
                      
-                   <ul>
-                    <li>Sri Charan</li>
-                    <li>9390891684</li>
-                    <li>Sreecharan750@gmail.com</li>
-                    <li>Cyber Security</li>
-                    <li>Sri Charan</li>
-                    <li>9390891684</li>
-                    <li>Sreecharan750@gmail.com</li>
-                    <li>Cyber Security</li>
-                   </ul>
+                   <dl>
+                    <dt>Programming In Java From NPTEL</dt>
+                    <dd>https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS43S107020086730337692 </dd>
+                    <dt>CS50's programming with Python </dt>
+                    <dd>CertificateId: 042abddd57a647b3a407595b752ac2a5</dd>
+                   </dl>
 
                   </div>
                   <br></br>         <br></br>         <br></br>
