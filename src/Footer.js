@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaHome, FaProjectDiagram, FaCertificate, FaEnvelope, FaGithub, FaLinkedin, FaGoogle } from "react-icons/fa";
+import { FaHome, FaProjectDiagram, FaInfoCircle, FaEnvelope, FaGithub, FaLinkedin, FaGoogle } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -18,8 +18,8 @@ function Footer() {
           <Link to="/projects" style={{ color: "#bbb", textDecoration: "none", display: "flex", alignItems: "center", gap: "5px" }}>
             <FaProjectDiagram /> Projects
           </Link>
-          <Link to="/certifications" style={{ color: "#bbb", textDecoration: "none", display: "flex", alignItems: "center", gap: "5px" }}>
-            <FaCertificate /> Certifications
+          <Link to="/About" style={{ color: "#bbb", textDecoration: "none", display: "flex", alignItems: "center", gap: "5px" }}>
+            <FaInfoCircle /> About
           </Link>
           <Link to="/contact" style={{ color: "#bbb", textDecoration: "none", display: "flex", alignItems: "center", gap: "5px" }}>
             <FaEnvelope /> Contact
