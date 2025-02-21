@@ -38,7 +38,7 @@ function Footer() {
             <FaLinkedin />
           </a>
         </div>
-
+ 
         <p style={{ fontSize: "12px", color: "#777", marginTop: "15px" }}>
           © {new Date().getFullYear()} Portfolio. All Rights Reserved.
         </p>
