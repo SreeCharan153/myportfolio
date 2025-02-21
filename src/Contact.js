@@ -13,6 +13,7 @@ import Header from './Header'
 
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import Footer from './Footer';
 
 function TextControlsExample() {
   return (
@@ -72,7 +73,7 @@ const Contact = () => {
 
 
       </div>
-
+<Footer/>
     </div>
   )
 }

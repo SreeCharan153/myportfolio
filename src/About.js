@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import './About.css'
+import Footer from './Footer'
 const About = () => {
   return (
     <div>
@@ -29,7 +30,7 @@ const About = () => {
                    <ul>
                     <li>SSC</li><p>I have Completed My Schooling in oxford EM School ,Kandukur</p>
                     <li>InterMediate</li><p>I have Completed my InterMediate in oxford JR College ,Kandukur</p>
-                    <li>Bachelor Of Technology</li><p>Present I am persuing B.Tech 2st year , csc-cs Raghu Educational Institution , vizag</p>
+                    <li>Bachelor Of Technology</li><p>Present I am persuing B.Tech 3rd year , csc-cs Raghu Educational Institution , vizag</p>
                    </ul>
 
                   </div>
@@ -51,7 +52,7 @@ const About = () => {
 
                     <li>ReactJs</li>
                     <div className="skilldivs">
-                        <div id="react">30%</div>
+                        <div id="react">50%</div>
                     </div >
 
                     
@@ -93,12 +94,13 @@ const About = () => {
                     <li><a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS43S107020086730337692">Programming In Java From NPTEL</a></li>
                     <li><a href="https://courses.edx.org/certificates/042abddd57a647b3a407595b752ac2a5">CS50's programming with Python</a> </li>
                     <li>Engineering Foundation Course From GCODE</li>
+                    <li>Prompt Engineering Certification from BE10X</li>
                    </ul>
 
                   </div>
-                  <br></br>         <br></br>         <br></br>
+                  <br></br>         <br></br> <br/><br/><br/><br/>        <br></br>
          </div>
-        
+        <Footer/>
     </div>
   )
 }
