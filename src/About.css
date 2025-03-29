@@ -93,7 +93,24 @@
     animation: fill 5s infinite;
 
 }
-
+#fl
+{
+    height:100%;
+    width:40%;
+    background-color:darkseagreen;
+    border-radius:8px;
+    text-align: right;
+    animation: fill 5s infinite;
+}
+#dart
+{
+    height:100%;
+    width:40%;
+    background-color:darkseagreen;
+    border-radius:8px;
+    text-align: right;
+    animation: fill 5s infinite;
+}
 #react{
     height:100%;
     width:50%;

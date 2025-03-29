@@ -4,11 +4,11 @@ import { FaHome, FaProjectDiagram, FaInfoCircle, FaEnvelope, FaGithub, FaLinkedi
 
 function Footer() {
   return (
-    <footer style={{ backgroundColor: "#111", color: "#fff", padding: "20px 0", textAlign: "center" }}>
+    <footer style={{ backgroundColor: "#111", color: "#fff", padding: "20px 0", textAlign: "center" ,marginTop:"200px"}}>
       <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 20px" }}>
         
         <h2 style={{ fontSize: "20px", marginBottom: "5px" }}>Portfolio</h2>
-        <p style={{ fontSize: "14px", color: "#bbb" }}>Full-Stack Developer | Cybersecurity Enthusiast</p>
+        <p style={{ fontSize: "14px", color: "#bbb" }}>Developer | CoFounder @PillionPal | Entrepreneur</p>
 
         {/* Navigation Links */}
         <div style={{ margin: "15px 0", display: "flex", justifyContent: "center", gap: "20px" }}>

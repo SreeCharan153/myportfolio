@@ -75,6 +75,14 @@ const About = () => {
                     <div className="skilldivs">
                         <div id="ms">70%</div>
                     </div>
+                    <li>Flutter</li>
+                    <div className="skilldivs">
+                        <div id="fl">40%</div>
+                    </div>
+                    <li>Dart</li>
+                    <div className="skilldivs">
+                        <div id="dart">40%</div>
+                    </div>
                     <li>Time Management</li>
                     <div className="skilldivs">
                         <div id="time"> 100%</div>
@@ -98,7 +106,6 @@ const About = () => {
                    </ul>
 
                   </div>
-                  <br></br>         <br></br> <br/><br/><br/><br/>        <br></br>
          </div>
         <Footer/>
     </div>
