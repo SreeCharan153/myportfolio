@@ -34,7 +34,7 @@ function Footer() {
           <a href="mailto:sreecharan750@gmail.com" style={{ color: "#bbb", fontSize: "24px" }}>
             <FaGoogle />
           </a>
-          <a href="https://www.linkedin.com/in/sree-charan-316692275/" target="_blank" rel="noopener noreferrer" style={{ color: "#bbb", fontSize: "24px" }}>
+          <a href="https://www.linkedin.com/in/sri-charan-machabhakthuni/" target="_blank" rel="noopener noreferrer" style={{ color: "#bbb", fontSize: "24px" }}>
             <FaLinkedin />
           </a>
         </div>
